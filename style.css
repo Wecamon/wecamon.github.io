@@ -1,0 +1,109 @@
+html{
+    line-height:1.15;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
+    height:100%
+}
+body{
+    margin:0
+}
+article,aside,footer,header,nav,section{
+    display:block
+}
+a{
+    background-color:transparent;
+    -webkit-text-decoration-skip:objects
+}
+abbr[title]{
+    border-bottom:none;
+    text-decoration:underline;
+    text-decoration:underline dotted
+}
+b,strong{
+    font-weight:inherit;
+    font-weight:bolder
+}
+body {
+    min-height: 100%;
+    background: #f4f5f6;
+    color: #000;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ a {
+     text-decoration: underline;
+     color: #3f7bb3;
+ }
+ a:hover {
+     text-decoration: none;
+ }
+ p {
+     margin: 0 0 20px 0;
+ }
+ .wrapper {
+     background: #fff;
+     border: 1px solid #dfe3e3;
+     border-radius: 5px;
+     padding: 20px;
+     max-width: 550px;
+ }
+ .header {
+     background: #f6f6f6;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+     margin: -20px -20px 20px -20px;
+     padding: 20px;
+     overflow: hidden;
+     line-height: 1;
+     position: relative;
+ }
+ .header-name {
+    
+     text-align: center;
+     font-size: 25px;
+     font-weight: bold;
+     text-shadow: 1px 1px 0 #fff;
+ }
+ .header-name span {
+     font-size: 16px;
+     font-weight: normal;
+ }
+ .block-info {
+     margin: 0 0 20px 0;
+     line-height: 1.5em;
+ }
+ .block-info span {
+     font-style: italic;
+     font-weight: 300;
+ }
+ .block-info p {
+     margin-left: 10px;
+ }
+ .block-info a {
+     color: #000;
+ }
+ .block-info-title {
+     border-bottom: 1px solid #dfe3e3;
+     font-size: 18px;
+     font-weight: bold;
+     margin: 0 0 10px 0;
+ }
+ @media only screen and (max-width: 590px) {
+    body {
+       align-items: stretch;
+    }
+     .wrapper {
+         border: 0;
+         margin: 0;
+         padding: 20px;
+     }
+     .header-name,
+     .header-desc {
+         float: none;
+     }
+ }
